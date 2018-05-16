@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="grid-container">
+            <div id="logo">
+            <img class="imglogo" src="images/logo.png">
+        </div>
+            <div id="menu">
+                <ul>
+                    <li><a href=" ">Ana səhifə</a></li>
+                    <li><a href=" ">Axtarış</a></li>
+                    <li><a href=" ">Rieltor</a></li>
+                    <li><a href=" ">Faydali</a></li>
+                    <li><a href=" ">Əlaqə</a></li>
+                </ul>
+            </div>
+            <div id="search">
+                <input class="find" type="text" placeholder="Elan No">
+            </div>
+            <div id="searchicon">
+                    <i class="fas fa-search"></i>
+            </div>
+            <div id="btn">
+                <button>+ Elan ver</button>
+            </div>
+        </nav>
+    </header>
+    <section id="selectbar" class="grid-container">
+        <section id="leftpart">
+        <form id="findform" class="flexform">
+                <div class="name">
+                        <p>Əmlakın növü</p>
+                </div>
+                <div class="name">
+                        <p>Elanin növü</p>
+                </div>
+                <div class="name">
+                        <p>Şəhər</p>
+                </div>
+                <div class="name">
+                </div>
+                <select class="choose">
+                    <option>Bina ev menzil</option>
+                    <option>Torpaq sahesi</option>
+                    <option>Obyekt</option>
+                    <option>Ofis</option>
+                    <option>Qaraj</option>
+                </select>
+                    <select class="choose">
+                        <option>Satılır</option>
+                        <option>Kirayə aylıq</option>
+                        <option>Kirayə günlük</option>
+                    </select>
+                        <select class="choose">
+                            <option>Baki</option>
+                            <option>Xirdalan</option>
+                            <option>Sumqayit</option>
+                        </select>
+                        <div class="choose">
+                        </div>
+                        <div class="name">
+                                <p>Qiymet</p>
+                        </div>
+                        <div class="name">
+                                <p>Mertebe</p>
+                        </div>
+                        <div class="name">
+                                <p>Otaq</p>
+                        </div>
+                        <div class="name">
+                                <p>Sahesi</p>
+                        </div>
+                    <select class="minmax">
+                        <option>min</option>
+                        <option>500</option>
+                        <option>1000</option>
+                        <option>1500</option>
+                        <option>2000</option>
+                        <option>2500</option>
+                    </select>
+                        <select class="minmax">
+                            <option></option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                        <select class="minmax">
+                                <option></option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option> 
+                            </select>
+                            <select class="minmax">
+                                    <option>min</option>
+                                    <option>500</option>
+                                    <option>1000</option>
+                                    <option>1500</option>
+                                    <option>2000</option>
+                                    <option>2500</option>
+                                </select>
+                            <select class="minmax">
+                                <option>max</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                            <select class="minmax">
+                            <option></option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                                </select>
+                                <select class="minmax">
+                                    <option></option>
+                                    <option>50</option>
+                                    <option>100</option>
+                                    <option>150</option>
+                                    <option>200</option>
+                                    <option>250</option>
+                                </select>
+                                <select class="minmax">
+                                        <option>max</option>
+                                        <option>50</option>
+                                        <option>100</option>
+                                        <option>150</option>
+                                        <option>200</option>
+                                        <option>250</option>
+                                    </select>
+            </form>
+            <div id="searchtype" class="searchflex">
+                <div class="nothing">
+                </div>
+                <button class="formbtn"><i class="fas fa-search"></i>Ətrafli axtariş</button>
+                <button class="formbtn"><i class="far fa-square"></i>Yalniz Şəkili</button>
+                <button class="formbtn"><i class="far fa-square"></i>Kredit</button>
+                <button id="go" class="formbtn">Axtar</button>        
+            </div>
+        </section>
+            <div id="options" class="flexoption">
+                 <button class="entrancebtn"><i class="fas fa-caret-right"></i>Istifadeci girisi</button>
+                 <button class="optionbtn">Elan verilme qaydasi</button>
+                 <button class="optionbtn">Elana duzelis ve silmek</button> 
+                 <button class="optionbtn">Bakida evlerin qiymeti</button> 
+                 <button class="optionbtn">Odenisli elanin verilmesi</button>        
+            </div>
+            <div id="instagram">
+                    <img src="images/instagram.png">
+                </div>
+    </section>
+    <section id="Advertising" class="grid-container">
+            <div id="VIPtitle">
+                    <p> | VIP Elanlar</p>
+            </div> 
+        <section id="VIP" class="flexVIP"> 
+            <div class="imgads">
+            <img class="adverts" src="images/ad01.png">
+            </div>
+            <div class="imgads">
+                    <img class="adverts" src="images/ad02.png">
+                    </div>
+             <div class="imgads">
+            <img class="adverts" src="images/ad03.png">
+            </div>
+            <div class="imgads">
+                    <img class="adverts" src="images/ad04.png">
+                    </div>
+             <div class="imgads">
+            <img class="adverts" src="images/ad05.png">
+            </div>
+            <div class="imgads">
+                    <img class="adverts" src="images/ad06.png">
+                    </div>
+            <div class="imgads">
+            <img class="adverts" src="images/ad07.png">
+            </div>
+            <div class="imgads">
+                    <img class="adverts" src="images/ad8.png">
+                    </div>
+             <div class="imgads">
+            <img class="adverts" src="images/ad09.png">
+            </div>
+            <div class="imgads">
+                    <img class="adverts" src="images/ad10.png">
+                    </div>
+             <div class="imgads">
+            <img class="adverts" src="images/ad11.png">
+            </div>
+            <div class="imgads">
+                    <img class="adverts" src="images/ad12.png">
+                    </div>
+             <div class="imgads">
+            <img class="adverts" src="images/ad13.png">
+            </div>
+            <div class="imgads">
+                    <img class="adverts" src="images/ad14.png">
+                    </div>
+             <div class="imgads">
+            <img class="adverts" src="images/ad15.png">
+            </div>
+            <div class="imgads">
+                    <img class="adverts" src="images/ad16.png">
+                    </div>
+                     <div class="imgads">
+            <img class="adverts" src="images/ad17.png">
+            </div>
+            <div class="imgads">
+                    <img class="adverts" src="images/ad18.png">
+                    </div>
+             <div class="imgads">
+            <img class="adverts" src="images/ad19.png">
+            </div>  
+            <div class="imgads">
+                    <img class="adverts" src="images/ad20.png">
+                    </div>
+                     <div class="imgads">
+            <img class="adverts" src="images/ad21.png">
+            </div>
+            <div class="imgads">
+                    <img class="adverts" src="images/ad22.png">
+                    </div>
+                     <div class="imgads">
+            <img class="adverts" src="images/ad23.png">
+            </div>
+            <div class="imgads">
+                    <img class="adverts" src="images/ad24.png">
+                    </div>
+                     <div class="imgads">
+            <img class="adverts" src="images/ad25.png">
+            </div>
+            <div class="imgads">
+                    <img class="adverts" src="images/ad26.png">
+                    </div> 
+        <div class="imgads">
+             <img class="adverts" src="images/ad27.png">
+         </div> 
+         <div class="imgads">
+                <img class="adverts" src="images/ad28.png">
+                </div> 
+         <div class="imgads">
+                    <img class="adverts" src="images/ad29.png">
+                    </div> 
+         <div class="imgads">
+                <img class="adverts" src="images/ad30.png">
+                 </div>
+                 <div class="imgads">
+                        <img class="adverts" src="images/ad31.png">
+                        </div>
+                         <div class="imgads">
+                <img class="adverts" src="images/ad32.png">
+                </div>
+                <div class="imgads">
+                        <img class="adverts" src="images/ad33.png">
+                        </div>
+                         <div class="imgads">
+                <img class="adverts" src="images/ad34.png">
+                </div>
+                <div class="imgads">
+                        <img class="adverts" src="images/ad35.png">
+                        </div>
+                         <div class="imgads">
+                <img class="adverts" src="images/ad36.png">
+                </div>
+                <div class="imgads">
+                        <img class="adverts" src="images/ad37.png">
+                        </div> 
+            <div class="imgads">
+                 <img class="adverts" src="images/ad38.png">
+             </div> 
+             <div class="imgads">
+                    <img class="adverts" src="images/ad39.png">
+                    </div> 
+             <div class="imgads">
+                        <img class="adverts" src="images/ad40.png">
+                        </div> 
+                    </section> 
+                    <div id="Last">
+                        <h2>| Satilir/Son əlavə olunanlar</h2>
+                    </div>
+            <section id="Lastadded" class="flexVIP">
+             <div class="imgads">
+                    <img class="adverts" src="images/ad41.png">
+                     </div>                      
+                     <div class="imgads">
+                            <img class="adverts" src="images/ad42.png">
+                            </div>
+                             <div class="imgads">
+                    <img class="adverts" src="images/ad43.png">
+                    </div>
+                    <div class="imgads">
+                            <img class="adverts" src="images/ad44.png">
+                            </div>
+                             <div class="imgads">
+                    <img class="adverts" src="images/ad45.png">
+                    </div>
+                    <div class="imgads">
+                            <img class="adverts" src="images/ad46.png">
+                            </div>
+                             <div class="imgads">
+                    <img class="adverts" src="images/ad47.png">
+                    </div>
+                    <div class="imgads">
+                            <img class="adverts" src="images/ad48.png">
+                            </div> 
+                <div class="imgads">
+                     <img class="adverts" src="images/ad49.png">
+                 </div> 
+                 <div class="imgads">
+                        <img class="adverts" src="images/ad50.png">
+                        </div> 
+                    </section>
+                    <div id="rent">
+                            <h2>| Kirayə/Son Əlavə Olunanlar</h2>
+                            </div>
+                        <section id="forrent" class="flexVIP">
+                 <div class="imgads">
+                            <img class="adverts" src="images/ad51.png">
+                            </div> 
+                 <div class="imgads">
+                        <img class="adverts" src="images/ad52.png">
+                         </div> 
+                <div class="imgads">
+                            <img class="adverts" src="images/ad06.png">
+                            </div> 
+                 <div class="imgads">
+                        <img class="adverts" src="images/ad53.png">
+                         </div>    
+                         <div class="imgads">
+                                <img class="adverts" src="images/ad55.png">
+                                </div> 
+                     <div class="imgads">
+                            <img class="adverts" src="images/ad56.png">
+                             </div>
+                <div class="imgads">
+                            <img class="adverts" src="images/ad57.png">
+                            </div> 
+                 <div class="imgads">
+                        <img class="adverts" src="images/ad58.png">
+                         </div>    
+                         <div class="imgads">
+                                <img class="adverts" src="images/ad59.png">
+                                </div> 
+                     <div class="imgads">
+                            <img class="adverts" src="images/ad60.png">
+                             </div>       
+        </section>
+        <section id="banners" class="grid-container">
+                <img class="daily" src="images/gunluk.jpeg">
+                <img class="cheap" src="images/ucuz.jpeg">
+                <img class="spring" src="images/yaz.jpeg">
+                <img class="register" src="images/register.jpeg">
+                <img class="newday" src="images/yenigun.jpg.jpeg">
+                <img class="repair" src="images/yenitemir.jpg.jpeg">
+                <img class="car" src="images/yeniavto.jpg.jpeg">
+                <img class="credit" src="images/kredit.jpg.jpeg">
+                 </section>
+                 <div id="usertitle">
+                    <h2>İstifadəçilərimiz</h2>
+                </div>
+        <section id="users" class="grid-container">
+             <div id="usernames" class="flexuser">
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Ilahə</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Xətai</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Məscid</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Qulam Binəqədi</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Vaqif</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Bəxtiyar</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Ələsgərov Islam</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Merdan</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Natiq Kərim</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Dostlar</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Şirazi</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Neü HOUSE</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>AminƏmlak</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Rafiq m.</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Qara çöp</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Kreativ Nəsimi</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Ilahə</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Xətai</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Məscid</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Qulam Binəqədi</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Vaqif</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Bəxtiyar</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Ələsgərov Islam</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Merdan</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Natiq Kərim</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Dostlar</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Şirazi</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Neü HOUSE</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>AminƏmlak</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Rafiq m.</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Qara çöp</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Kreativ Nəsimi</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Ilahə</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Xətai</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Məscid</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Qulam Binəqədi</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Vaqif</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Bəxtiyar</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Ələsgərov Islam</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Merdan</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Natiq Kərim</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Dostlar</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Şirazi</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Neü HOUSE</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>AminƏmlak</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Rafiq m.</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Qara çöp</p>
+            </div>
+            <div class="names"> <p><i class="fas fa-user-alt"></i>Kreativ Nəsimi</p>
+            </div>
+           
+             </div>
+
+        </section>
+         <div id="useful">
+             <h2>| Faydali Linkler</h2>
+         </div>
+         <section id="links" class="grid-container">
+             <div id="linkbtn" class="flexlink">
+                <div> <button>Bakida gunluk evler</button></div>
+                <div> <button>Bakida kiraye evler</button></div>
+                <div> <button>Bakida kreditle evler</button></div>
+                <div> <button>Bakida evlerin qiymeti</button></div>
+                <div> <button>Azerbaycanda yay istiraheti</button></div>
+                <div> <button>Ipoteka kreditlerinin verilmesi</button></div>
+                <div> <button>Menzil villa alqi-satqisi</button></div>
+                <div> <button>Qebelede gunluk evler</button></div>
+                <div> <button>Ismayillida gunluk evler</button></div>
+                <div> <button>Bakida evlerin qiymeti</button></div>
+                <div> <button>Azerbaycanda yay istiraheti</button></div>
+                <div> <button>Ipoteka kreditlerinin verilmesi</button></div>
+                <div> <button>Menzil villa alqi-satqisi</button></div>
+             </div>
+         </section>
+    </section>
+    <footer id="rights">
+        <div id="copyrights" class="grid-container">
+            <p>Sayt administrasiyası verilən elanlara görə məsuliyyət daşımır. </p>
+            <p>Copyright © 2016. www.yeniemlak.az ! Bütün hüquqlar qorunur.</p>
+            <p>Tel: (+994 55) 261 21 26; E-mail: info@yeniemlak.az</p>
+        </div>
+    </footer>
+</body>
+</html>
